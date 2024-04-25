@@ -1,0 +1,112 @@
+.container{
+    padding-bottom: 50px;
+}
+
+.menu ul li{
+    padding: 5px 20px;
+}
+.buy-naw-button{
+    background-color: rgb(35, 39, 43);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 9px 25px;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.phone-head{
+    display: flex;
+    justify-content: space-between;
+}
+.phone-head h6{
+    color: orange;
+}
+.ban-btn button{
+    background-image: linear-gradient(to right, rgb(255, 168, 47) 0%, rgb(255, 197, 31) 100%);
+    padding: 5px 20px !important;
+    border: 1px solid #fff !important;
+    border-radius: 10px !important;
+    -webkit-border-radius: 10px !important;
+    -moz-border-radius: 10px !important;
+    -ms-border-radius: 10px !important;
+    -o-border-radius: 10px !important;
+}
+.card{
+    border: none !important;
+    box-shadow: 5px 5px 10px lightgray ;
+}
+.card-body{
+    justify-content: center;
+    text-align: center;
+}
+
+.cat-head h3{
+    text-align: center;
+    position: relative;
+}
+.cat-head h3::after{
+    position: absolute;
+    content: '';
+    top: 40px;
+    left: 510px;
+    width: 100px;
+    height: 4px;
+    background-color: orange;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.cat-left{
+    border: 1px solid #fff;
+    box-shadow: 5px 5px 50px lightgray ;
+    text-align: center;
+    padding: 50px 0;
+    border-top-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.cat-left h4{
+    padding-top: 15px;
+}
+.cat-left1{
+    border: 1px solid #fff;
+    box-shadow: 5px 5px 50px lightgray ;
+    text-align: center;
+    padding: 50px 0;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.cat-left1 h4{
+    padding-top: 15px;
+}
+.cat1{
+   margin-top: 180px;
+}
+.cat2{
+    margin: 30px 0;
+}
+.cat-img{
+    margin-top: 180px;
+}
+
+.let{
+    background-color: orange;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 50px 30px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+.let-text{
+    color: #fff;
+}
+.let-btn button{
+    background-color: brown;
+}
